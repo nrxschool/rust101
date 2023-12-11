@@ -8,8 +8,6 @@
 - Se você quiser que uma variável seja mutável você pode usar `let mut`.
 - Rust também permite "shadowing", onde você pode declarar uma nova variável com o mesmo nome, efetivamente criando uma nova variável.
 
-## Extras
-
 ```Rust
 fn main() {
 
@@ -65,7 +63,6 @@ Em Rust usamos "snake_case" como padrão para variáveis e funções, por exempl
 - Os nomes devem refletir o propósito da variável ou o valor que ela guarda.
 - Evite usar "números mágicos" diretamente no código; dê-lhes um nome significativo.
 
-# Extras
 
 ```Rust
 #[test]
@@ -224,11 +221,11 @@ fn broken_test_bit_count() {
 
 Rust é uma linguagem de programação com tipagem estática e forte, o que significa que:
 
-Tipagem estática:
+**Tipagem estática**
 - O tipo de cada variável é determinado em tempo de compilação e não muda.
 - Uma variável declarada com um tipo específico não pode ser reatribuída a um valor de outro tipo sem uma conversão explícita.
 
-Tipagem forte:
+**Tipagem forte**
 - Rust é rigoroso com as operações entre tipos.
 - Não é possível transformar diretamente um número e uma string sem converter explicitamente um deles para o tipo compatível do outro.
 
@@ -335,3 +332,16 @@ fn broken_test_array_size() {
     assert_eq!(std::mem::size_of_val(&array), 0);
 }
 ```
+
+
+# Teste
+
+| Pergunta | 🔴 | 🟢 | 🔵 | 🟡 | Resposta |
+| --- | --- | --- | --- | --- | --- |
+| **Pergunta 1:** Qual é a palavra-chave usada para declarar uma variável em Rust? | var | let | mut | const | 🟢 |
+| **Pergunta 2:** Como você torna uma variável mutável em Rust? | Usando a palavra-chave mut let | Usando a palavra-chave let | Usando a palavra-chave const | Não é possível tornar uma variável mutável em Rust | 🔴 |
+| **Pergunta 3:** O que é "shadowing" em Rust? | Um erro de compilação | Um tipo de variável que não pode ser usada | A capacidade de declarar uma nova variável com o mesmo nome de uma variável existente | A capacidade de atribuir um novo valor a uma variável imutável | 🔵 |
+| **Pergunta 4:** Qual é a convenção de nomenclatura recomendada para variáveis em Rust? | PascalCase | camelCase | snake_case | kebab-case | 🔵 |
+| **Pergunta 5:** O que é um byte em termos de representação de dados em computação? | 4 bits | 8 bits | 16 bits | 32 bits | 🟢 |
+| **Pergunta 6:** Qual é a diferença entre big-endian e little-endian em relação à ordem de armazenamento de bytes? | Os bytes menos significativos são armazenados primeiro | Os bytes mais significativos são armazenados primeiro | Os bytes são armazenados em ordem aleatória | Ambos armazenam os bytes da mesma maneira | 🟢 |
+
