@@ -8,4 +8,3 @@
 - [Módulo 6 - Lists e Maps](./module06/README.md)
 - [Módulo 7 - Estruturas avançadas](./module07/README.md)
 - [Módulo 8 - Desenvolvendo software do zero](./module08/README.md)
-- ...
