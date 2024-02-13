@@ -1,6 +1,3 @@
-// Para evitar os warnings
-#![allow(warnings)]
-
 //! # Os tipos são seus amigos mano
 //!
 //! Rust é uma linguagem de programação com tipagem estática e forte, o que significa que:

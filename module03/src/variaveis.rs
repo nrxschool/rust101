@@ -1,6 +1,3 @@
-// Para evitar os warnings
-#![allow(warnings)]
-
 //! # Variáveis em Rust
 //!
 //! Em Rust, uma **variável** é um identificador associado a um valor que pode ser usado em seu programa. 

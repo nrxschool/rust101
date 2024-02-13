@@ -1,7 +1,3 @@
-// Para evitar os warnings
-#![allow(warnings)]
-
-
 //! # Como dar nome às coisas?
 //!
 //! Em Rust usamos "snake_case" como padrão para variáveis e funções, por exemplo:
