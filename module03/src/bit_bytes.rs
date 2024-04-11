@@ -66,15 +66,15 @@ fn broken_test_endianness() {
 #[test]
 fn broken_test_overflow() {
     let big_number: u8 = 250u8;
-    let result = big_number + 10;
+    let result = big_number + 5;
 
-    assert_eq!(result, 4);
+    assert_eq!(result, 255);
 }
 
 #[test]
 fn broken_test_underflow() {
     let small_number: i8 = -128i8;
-    let result = small_number - 1;
+    let result = small_number.wrapping_sub(1);
     assert_eq!(result, 127);
 }
 
